@@ -1,0 +1,12 @@
+Note: To create a proper favicon.ico file from the plant-icon.svg:
+
+1. Visit https://favicon.io/favicon-converter/
+2. Upload the plant-icon.svg file
+3. Download the generated favicon.ico
+4. Replace this file with the downloaded favicon.ico
+
+Alternatively, modern browsers will use the SVG favicon (plant-icon.svg) which is already configured in index.html.
+
+
+
+
