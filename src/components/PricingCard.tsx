@@ -9,6 +9,7 @@ interface PricingCardProps {
   features: string[];
   highlighted?: boolean;
   ctaText?: string;
+  onCtaClick?: () => void;
 }
 
 export const PricingCard = ({
@@ -18,6 +19,7 @@ export const PricingCard = ({
   features,
   highlighted = false,
   ctaText = "Get Started",
+  onCtaClick,
 }: PricingCardProps) => {
   return (
     <Card
@@ -54,6 +56,7 @@ export const PricingCard = ({
           variant={highlighted ? "cta" : "default"}
           size="lg"
           className="w-full"
+          onClick={onCtaClick}
         >
           {ctaText}
         </Button>

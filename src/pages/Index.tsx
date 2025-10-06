@@ -57,7 +57,12 @@ const Index = () => {
           </p>
 
           {/* CTA Button */}
-          <Button variant="hero" size="xl" className="group" href="https://ecoledger-dapp.netlify.app/">
+          <Button 
+            variant="hero" 
+            size="xl" 
+            className="group" 
+            onClick={() => window.open('https://ecoledger-dapp.netlify.app/', '_blank')}
+          >
             Get Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
@@ -170,6 +175,7 @@ const Index = () => {
                 "Basic analytics",
               ]}
               ctaText="Start Free"
+              onCtaClick={() => window.open('https://ecoledger-dapp.netlify.app/', '_blank')}
             />
             <PricingCard
               title="Pro Plan"
@@ -185,6 +191,7 @@ const Index = () => {
                 "API access",
               ]}
               ctaText="Start Pro Trial"
+              onCtaClick={() => window.open('https://ecoledger-dapp.netlify.app/', '_blank')}
             />
             <PricingCard
               title="Enterprise"
@@ -199,6 +206,7 @@ const Index = () => {
                 "SLA guarantee",
               ]}
               ctaText="Contact Sales"
+              onCtaClick={() => window.open('https://ecoledger-dapp.netlify.app/', '_blank')}
             />
           </div>
         </div>
