@@ -57,7 +57,7 @@ const Index = () => {
           </p>
 
           {/* CTA Button */}
-          <Button variant="hero" size="xl" className="group">
+          <Button variant="hero" size="xl" className="group" href="https://ecoledger-dapp.netlify.app/">
             Get Started
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
